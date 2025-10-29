@@ -27,20 +27,13 @@ header {
 h2 {
   text-align: center;
 
-
-
-#img1 {
-  clip-path: circle(50%);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.
 profile-pic {
  
    clip-path: circle(50%);
+   width: 100px;
+  height: 100px;
   
+  object-fit: cover;
 }
 nav ul {
   list-style: none;
@@ -96,6 +89,7 @@ footer {
   color: white;
   margin-top: 20px;
 }
+
 
 
 
