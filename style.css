@@ -28,13 +28,11 @@ h2 {
   text-align: center;
 
 }
-
 .
 profile-pic {
-  width: 100px;
-  height: 100px;
+  
   border-radius: 50%;
-  object-fit: cover;
+  
 }
 nav ul {
   list-style: none;
@@ -90,3 +88,4 @@ footer {
   color: white;
   margin-top: 20px;
 }
+
