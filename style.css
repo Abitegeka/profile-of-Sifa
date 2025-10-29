@@ -29,10 +29,9 @@ h2 {
 
 profile-pic {
  
-   clip-path: circle(50%);
-   width: 100px;
+  width: 100px;
   height: 100px;
-  
+  border-radius: 50%;
   object-fit: cover;
 }
 nav ul {
@@ -90,6 +89,17 @@ footer {
   margin-top: 20px;
 }
 
+@media (max-width: 600px) 
+{
+  nav ul {
+    flex-direction: column;
+  }
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+ text-align: left;
+ }
+}
 
 
 
