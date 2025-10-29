@@ -1,1 +1,43 @@
+/* 
+  style.css
+  
+Stylesheet for Personal Website
+  Author: abitegeka Sifa
+*/
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+h2 {
+  text-align: center;
+
+}
+
+.
+profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-cont
 
