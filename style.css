@@ -31,7 +31,10 @@ h2 {
 .
 profile-pic {
   
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  object-fit: cover;
   
 }
 nav ul {
@@ -88,4 +91,5 @@ footer {
   color: white;
   margin-top: 20px;
 }
+
 
