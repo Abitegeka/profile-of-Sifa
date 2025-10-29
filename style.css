@@ -28,6 +28,9 @@ h2 {
   text-align: center;
 
 }
+img {
+  clip-path: circle(50%);
+}
 .
 profile-pic {
  
@@ -88,6 +91,7 @@ footer {
   color: white;
   margin-top: 20px;
 }
+
 
 
 
