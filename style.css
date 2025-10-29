@@ -4,18 +4,23 @@
 Stylesheet for Personal Website
   Author: abitegeka Sifa
 */
+
 * 
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
 }
+
+
 header {
   background-color: #004080;
   color: white;
@@ -23,23 +28,22 @@ header {
   text-align: center;
 }
 
-
-h2 {
-  text-align: center;
-
+.
 profile-pic {
- 
   width: 100px;
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
 }
+
+
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
+
 
 nav ul li {
   margin: 0 15px;
@@ -50,6 +54,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 nav ul li a:hover {
   text-decoration: underline;
@@ -67,7 +72,7 @@ section {
 .schools-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 20px;
+  gap: 15px;
   margin-top: 15px;
 }
 
@@ -75,9 +80,9 @@ section {
 .school {
   background-color: #e6f0ff;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 6px;
   text-align: center;
-  border: 2px solid #b3d1ff;
+  border: 1px solid #b3d1ff;
 }
 
 
@@ -100,11 +105,3 @@ footer {
  text-align: left;
  }
 }
-
-
-
-
-
-
-
-
